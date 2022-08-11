@@ -1,0 +1,283 @@
+body{
+   font-family: 'Poppins', sans-serif;}
+a{
+   color: #555;
+}
+p{
+   color: #555;
+}
+header{
+   padding-bottom: 100px;
+   background: radial-gradient(#fff, #ffd6d6);
+   padding-left: 25px;
+   padding-right: 25px;
+   margin: auto
+}
+
+.row{
+
+   align-items: center;
+   justify-content: center;
+
+}
+.col-md-6 h1{
+   font-size: 50px;
+   margin: 25px 0;
+   line-height: 60px;
+}
+
+.col-md-3 img{
+ width: 100%;
+}
+
+.title{
+   position: relative;
+   line-height: 60px;
+   color: #555;
+   margin: 0 auto 50px
+
+}
+ .title::after{
+   content: " ";
+   background: #ff523b;
+   width: 80px;
+   height: 5px;
+   border-radius: 5px;
+   position: absolute;
+   bottom: 0;
+   left: 47%;
+   transform: translateY(-50);
+
+}
+
+h4{
+   font-weight: normal;
+   color: #555;
+}
+
+
+.rating .fa{
+   color: #ff523b;
+}
+
+.col-md-3{
+   transition: transform 0.5s;
+}
+.col-md-3:hover{
+   transform: translateY(-5px);
+}
+
+.user{
+   border-radius: 50%;
+   width: 50px;
+
+}
+.col-md{
+   padding: 40px;
+   margin: 20px;
+   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+   cursor: pointer;
+   transition: transform 0.5s;
+   
+}
+.col-md:hover{
+   transform: translateY(-10px);
+}
+.fa.fa-quote-left{
+   font-size: 34px;
+   color: #ff523b;
+}
+.col-md p{
+   font-size: 12px;
+   margin: 20px 0;
+   color: #777;
+}
+
+.col-md h3{
+   font-size: 16px;
+   font-weight: 600;
+   color: #555;
+}
+.brands{
+  
+}
+.col-sm-2{
+
+}
+.col-sm-2 img{
+   width: 100%;
+   cursor: pointer;
+   filter: grayscale(100%);
+}
+.col-sm-2 img:hover{
+   filter: grayscale(0);
+}
+.footer{
+   
+   background-color: #000;
+   color: #8a8a8a;
+   font-size: 15px;
+   padding: 16px 0 20px;
+}
+.footer p{
+   color: #8a8a8a;
+}
+.footer h3{
+   color: #fff;
+   margin-bottom: 20px;
+}
+
+.footer img{
+   width: 180px;
+   margin-bottom: 20px
+}
+ul{
+   list-style-type: none;
+}
+.footer hr{
+   border: none;
+   height: 2px;
+   background: #b5b5b5;
+   margin: 20px 0;
+}
+#offer{
+   background-image: url(images/wallpaperflare.com_wallpaper.jpg);
+   opacity: 0.9;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+
+}
+.col-md-3 a{
+   text-decoration: none;
+}
+select{
+   height: 40px;
+   width: 110px;
+   text-align: center;
+}
+.nub{
+   width: 70px;
+   height: 40px;
+   text-align: center;
+   margin-top: 13px;
+   margin-bottom: 30px;
+}
+.fa.fa-indent{
+   margin-left: 5px;
+   color: #ff523b;
+   font-size: 18px;
+}
+input:focus{
+   outline: none;}
+select:focus{
+   outline: none;
+}
+.container-form{
+   position: relative;
+   width: 300px;
+   height: 400px;
+   background: #fff;
+   box-shadow: 0 0 20px opx rgb(0, 0, 0, 1);
+   text-align: center;
+   padding: 20px 0;
+   margin: auto;
+   overflow: hidden
+}
+.container-form span{
+   font-weight: bold;
+   padding: 0 25px;
+   color: #555;
+   cursor: pointer;
+   width: 100%;
+}
+.reg-bt{
+   display: inline-block;
+}
+.container-form form{
+   max-width: 300px;
+   padding: 0 20px;
+   position: absolute;
+   top: 130px;
+   transition: transform 1s;
+}
+form input{
+   width: 100%;
+   margin: 10px 0;
+   padding: 0 10px;
+   height: 30px;
+   border: 1px solid #ccc;
+}
+ #LoginForm{
+   left: -300px;
+ }
+ #RegForm{
+   left: 0;
+ }
+ #Indicator{
+   width: 100px;
+   height: 3px;
+   border: none;
+   margin-top: 8px;
+   background: #f52409d3;
+   transform: translateX(100px);
+ }
+
+form a{
+   font-size: 15px;
+   text-decoration: none;
+}
+
+/* cart page*/
+.container-cartpage{
+   margin: 80px;
+}
+
+table{
+   width: 100%;
+   border-collapse: collapse;
+
+}
+.cart-info{
+   display: flex;
+   flex-wrap: wrap;
+}
+th{
+   text-align:left;
+   background: #ff523b;
+   padding: 5px;
+   font-weight: normal;
+   color: #fff;
+}
+td{
+   padding: 10px 5px;
+}
+td input{
+   width: 40px;
+   height: 30px;
+   padding: 5px;
+}
+td a{
+   font-size: 12px;
+   color: #ff523b;
+}
+td img{
+   width: 80px;
+   height: 80px;
+   margin-right: 10px;
+}
+.total-price{
+   display: flex;
+   justify-content: flex-end;
+}
+.total-price table{
+   border-top: 3px solid #ff523b;
+   width: 100%;
+   max-width: 590px;
+}
+td:last-child{
+   text-align: right;
+}
+th:last-child{
+   text-align: right;
+}
