@@ -221,6 +221,7 @@ form input{
    margin-top: 8px;
    background: #f52409d3;
    transform: translateX(100px);
+   transition: transform 1s;
  }
 
 form a{
